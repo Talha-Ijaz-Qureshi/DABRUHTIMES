@@ -1,0 +1,176 @@
+:root {
+  --gradient: linear-gradient(90deg, #ee6352, purple, #ee6352);
+
+}
+
+body {
+  font-family: basic-sans, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.125em;
+  line-height: 1.6;
+  color: #333;
+  background: #ddd;
+  background-size: 300%;
+  background-image: var(--gradient);
+  animation: bg-animation 25s infinite;
+}
+
+@keyframes bg-animation {
+  0% {background-position: left}
+  50% {background-position: right}
+  100% {background-position: left}
+}
+
+.content {
+  background: white;
+  width: 97vw;
+  padding: 1.2em;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);  position: absolute;
+  top: 1.5vw;
+
+}
+
+.content1 {
+    width:66vw;
+    height:30vw;
+    position: absolute;
+    background-color: white;
+    top: 18%;
+    left: 1.3vw;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.content2 {
+    width:31em;
+    height:70vw;
+    position: absolute;
+    background-color: white;
+    top: 18%;
+    left: 1100px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+
+.title {
+  font-weight: 900;
+  font-size: 3rem;
+  color: #ee6352;
+  line-height: 1.2;
+  margin: 0;
+  font-family: 'Cutive Mono', monospace;
+  background-image: var(--gradient);
+  background-clip: text;
+  color: transparent;
+  display: inline-block;
+  background-size: 300%;
+  transition: background-position 1s;
+}
+
+.title:hover {
+  background-position: right;
+}
+
+.propbtn1 {
+  color: white;
+  position: relative;
+  float: right;
+  margin: 10px;
+  border: 0;
+  cursor: pointer;
+  padding: .5em 1.25em;
+  background: linear-gradient(90deg, #ee6352, purple, #ee6352);
+  background-size: 300%;
+  background-position: left;
+  transition: background-position 350ms;
+}
+
+.propbtn1:hover {
+  background-position: right;
+}
+.propbtn2 {
+    color: white;
+    position: relative;
+    float: right;
+    margin: 10px;
+    border: 0;
+    cursor: pointer;
+    padding: .5em 1.25em;
+    background: linear-gradient(90deg, #ee6352, purple, #ee6352);
+    background-size: 300%;
+    background-position: left;
+    transition: background-position 350ms;
+  }
+  
+  .propbtn2:hover {
+    background-position: right;
+  }
+  .propbtn3 {
+    color: white;
+    position: relative;
+    float: right;
+    margin: 10px;
+    border: 0;
+    cursor: pointer;
+    padding: .5em 1.25em;
+    background: linear-gradient(90deg, #ee6352, purple, #ee6352);
+    background-size: 300%;
+    background-position: left;
+    transition: background-position 350ms;
+  }
+  
+  .propbtn3:hover {
+    background-position: right;
+  }
+  .propbtn4 {
+    color: white;
+    position: relative;
+    float: right;
+    margin: 10px;
+    border: 0;
+    cursor: pointer;
+    padding: .5em 1.25em;
+    background: linear-gradient(90deg, #ee6352, purple, #ee6352);
+    background-size: 300%;
+    background-position: left;
+    transition: background-position 350ms;
+  }
+  
+  .propbtn4:hover {
+    background-position: right;
+  }
+  .propbtn5 {
+    color: white;
+    position: relative;
+    float: right;
+    margin: 10px;
+    border: 0;
+    cursor: pointer;
+    padding: .5em 1.25em;
+    background: linear-gradient(90deg, #ee6352, purple, #ee6352);
+    background-size: 300%;
+    background-position: left;
+    transition: background-position 350ms;
+  }
+  
+  .propbtn5:hover {
+    background-position: right;
+  }
+  .propbtn6 {
+    color: white;
+    position: relative;
+    float: right;
+    margin: 10px;
+    border: 0;
+    cursor: pointer;
+    padding: .5em 1.25em;
+    background: linear-gradient(90deg, #ee6352, purple, #ee6352);
+    background-size: 300%;
+    background-position: left;
+    transition: background-position 350ms;
+  }
+  
+  .propbtn6:hover {
+    background-position: right;
+  }
