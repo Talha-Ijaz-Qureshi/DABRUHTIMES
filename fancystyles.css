@@ -1,5 +1,5 @@
 :root {
-  --gradient: linear-gradient(90deg, #1900ff, rgb(255, 63, 63), #1900ff);
+  --gradient: linear-gradient(90deg, #f2543f, rgb(30, 0, 225), #f2543f);
 
 }
 
@@ -86,7 +86,7 @@ body {
   border: 0;
   cursor: pointer;
   padding: .5em 1.25em;
-  background: linear-gradient(90deg, rgb(255, 63, 63), #1900ff, rgb(255, 63, 63));
+  background: linear-gradient(90deg, #3633e6, #f2543f, #3633e6);
   background-size: 400%;
   background-position: left;
   transition: background-position 350ms;
