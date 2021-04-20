@@ -64,11 +64,14 @@ body {
   font-family: 'B612 Mono', monospace;
   font-family: 'Cutive Mono', monospace;   
   background-image: var(--gradient);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   display: inline-block;
   background-size: 300%;
   transition: background-position 1s;
+  -webkit-background-clip-: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+ 
 }
 
 .title:hover {
