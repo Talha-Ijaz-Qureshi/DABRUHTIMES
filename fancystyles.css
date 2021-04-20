@@ -1,0 +1,179 @@
+:root {
+  --gradient: linear-gradient(90deg, #ee6352, purple, #ee6352);
+
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.125em;
+  line-height: 1.6;
+  color: #333;
+  background: #ddd;
+  background-size: 300%;
+  background-image: var(--gradient);
+  animation: bg-animation 25s infinite;
+}
+
+@keyframes bg-animation {
+  0% {background-position: left}
+  50% {background-position: right}
+  100% {background-position: left}
+}
+
+.content {
+  background: white;
+  width: 98%;
+  height: auto;
+  padding: 9px;
+  box-shadow: 0 0 3em rgba(0,0,0,.15);
+  position: absolute;
+  top: 0%;
+  margin: 10px 13px 10px;
+
+}
+/* this is intended to be centered alright, im ditching that content 2 and putting just this, ill make better use of content 2 later. for the sake of sanity ill keep eveyrhting centered as its way better */
+.content1 {
+    width:70%;
+    height: 500px;
+    position: absolute;
+    background-color: white;
+    top: 0%;
+    margin: 100px 13px 10px;
+}
+/* content 2 doesnt exist for now */
+.content2 {
+    width:31em;
+    height:70vw;
+    position: absolute;
+    background-color: white;
+    top: 19%;
+    left: 70em;
+    display: none;
+}
+
+.title {
+  font-weight: 900;
+  font-size: 3rem;
+  font-style: normal;
+  color: #ee6352;
+  line-height: 1.2;
+  margin: 0;
+  font-family: 'B612 Mono', monospace;
+  font-family: 'Cutive Mono', monospace;   
+  background-image: var(--gradient);
+  background-clip: text;
+  color: transparent;
+  display: inline-block;
+  background-size: 300%;
+  transition: background-position 1s;
+}
+
+.title:hover {
+  background-position: right;
+}
+
+.propbtn1 {
+  color: white;
+  position: relative;
+  float: right;
+  margin: 10px;
+  border: 0;
+  cursor: pointer;
+  padding: .5em 1.25em;
+  background: linear-gradient(90deg, #ee6352, purple, #ee6352);
+  background-size: 300%;
+  background-position: left;
+  transition: background-position 350ms;
+}
+
+.propbtn1:hover {
+  background-position: right;
+}
+.propbtn2 {
+    color: white;
+    position: relative;
+    float: right;
+    margin: 10px;
+    border: 0;
+    cursor: pointer;
+    padding: .5em 1.25em;
+    background: linear-gradient(90deg, #ee6352, purple, #ee6352);
+    background-size: 300%;
+    background-position: left;
+    transition: background-position 350ms;
+  }
+  
+  .propbtn2:hover {
+    background-position: right;
+  }
+  .propbtn3 {
+    color: white;
+    position: relative;
+    float: right;
+    margin: 10px;
+    border: 0;
+    cursor: pointer;
+    padding: .5em 1.25em;
+    background: linear-gradient(90deg, #ee6352, purple, #ee6352);
+    background-size: 300%;
+    background-position: left;
+    transition: background-position 350ms;
+  }
+  
+  .propbtn3:hover {
+    background-position: right;
+  }
+  .propbtn4 {
+    color: white;
+    position: relative;
+    float: right;
+    margin: 10px;
+    border: 0;
+    cursor: pointer;
+    padding: .5em 1.25em;
+    background: linear-gradient(90deg, #ee6352, purple, #ee6352);
+    background-size: 300%;
+    background-position: left;
+    transition: background-position 350ms;
+  }
+  
+  .propbtn4:hover {
+    background-position: right;
+  }
+  .propbtn5 {
+    color: white;
+    position: relative;
+    float: right;
+    margin: 10px;
+    border: 0;
+    cursor: pointer;
+    padding: .5em 1.25em;
+    background: linear-gradient(90deg, #ee6352, purple, #ee6352);
+    background-size: 300%;
+    background-position: left;
+    transition: background-position 350ms;
+  }
+  
+  .propbtn5:hover {
+    background-position: right;
+  }
+  .propbtn6 {
+    color: white;
+    position: relative;
+    float: right;
+    margin: 10px;
+    border: 0;
+    cursor: pointer;
+    padding: .5em 1.25em;
+    background: linear-gradient(90deg, #ee6352, purple, #ee6352);
+    background-size: 300%;
+    background-position: left;
+    transition: background-position 350ms;
+  }
+  
+  .propbtn6:hover {
+    background-position: right;
+  }
