@@ -1,5 +1,5 @@
 :root {
-  --gradient: linear-gradient(90deg, #ee6352, purple, #ee6352);
+  --gradient: linear-gradient(90deg, #1900ff, rgb(255, 63, 63), #1900ff);
 
 }
 
@@ -64,8 +64,8 @@ body {
   font-family: 'B612 Mono', monospace;
   font-family: 'Cutive Mono', monospace;   
   background-image: var(--gradient);
-  background-clip: text;
-  color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   display: inline-block;
   background-size: 300%;
   transition: background-position 1s;
@@ -83,8 +83,8 @@ body {
   border: 0;
   cursor: pointer;
   padding: .5em 1.25em;
-  background: linear-gradient(90deg, #ee6352, purple, #ee6352);
-  background-size: 300%;
+  background: linear-gradient(90deg, rgb(255, 63, 63), #1900ff, rgb(255, 63, 63));
+  background-size: 400%;
   background-position: left;
   transition: background-position 350ms;
 }
@@ -92,6 +92,9 @@ body {
 .propbtn1:hover {
   background-position: right;
 }
+
+/* not needed, just keeping for.. idk */
+
 .propbtn2 {
     color: white;
     position: relative;
@@ -101,7 +104,7 @@ body {
     cursor: pointer;
     padding: .5em 1.25em;
     background: linear-gradient(90deg, #ee6352, purple, #ee6352);
-    background-size: 300%;
+    background-size: 500%;
     background-position: left;
     transition: background-position 350ms;
   }
