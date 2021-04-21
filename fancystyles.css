@@ -28,7 +28,7 @@ body {
   width: 98%;
   height: auto;
   padding: 9px;
-  box-shadow: 0 0 3em rgba(0,0,0,.15);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   position: absolute;
   top: 0%;
   margin: 10px 13px 10px;
@@ -42,6 +42,8 @@ body {
     background-color: white;
     top: 0%;
     margin: 100px 13px 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 /* content 2 doesnt exist for now */
 .content2 {
