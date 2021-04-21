@@ -36,7 +36,7 @@ body {
 }
 /* this is intended to be centered alright, im ditching that content 2 and putting just this, ill make better use of content 2 later. for the sake of sanity ill keep eveyrhting centered as its way better */
 .content1 {
-    width:70%;
+    width:90%;
     height: 500px;
     position: absolute;
     background-color: white;
@@ -58,10 +58,10 @@ body {
 
 .title {
   font-weight: 900;
-  font-size: 3rem;
+  font-size: 2.7rem;
   font-style: normal;
   color: #ee6352;
-  line-height: 1.2;
+  line-height: 1.4;
   margin: 0;
   font-family: 'B612 Mono', monospace;
   font-family: 'Cutive Mono', monospace;   
@@ -80,6 +80,8 @@ body {
   background-position: right;
 }
 
+/*buttons temporarily removed */
+
 .propbtn1 {
   color: white;
   position: relative;
@@ -92,6 +94,7 @@ body {
   background-size: 400%;
   background-position: left;
   transition: background-position 350ms;
+  display: none;
 }
 
 .propbtn1:hover {
