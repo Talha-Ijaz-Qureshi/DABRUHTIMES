@@ -36,13 +36,14 @@ body {
 }
 /* this is intended to be centered alright, im ditching that content 2 and putting just this, ill make better use of content 2 later. for the sake of sanity ill keep eveyrhting centered as its way better */
 .content1 {
-    width:90%;
+    width: 80vw;
     height: 500px;
     position: absolute;
     background-color: white;
     top: 0%;
-    margin: 100px 13px 10px;
+    margin: 105px 13px 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    word-wrap: break-word
 
 }
 /* content 2 doesnt exist for now */
@@ -61,7 +62,7 @@ body {
   font-size: 2.7rem;
   font-style: normal;
   color: #ee6352;
-  line-height: 1.4;
+  line-height: 1.5;
   margin: 0;
   font-family: 'B612 Mono', monospace;
   font-family: 'Cutive Mono', monospace;   
@@ -78,6 +79,36 @@ body {
 
 .title:hover {
   background-position: right;
+}
+
+.topictitle {
+  text-align: center;
+  font-family: 'B612 Mono', monospace;
+  font-family: 'Cutive Mono', monospace;  
+  font-size: 50px; 
+  background-image: var(--gradient);
+  background-size: 300%;
+  transition: background-position 0.9s;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.topictitle:hover {
+  background-position: right;
+}
+
+.contenttext {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.displayimage1 {
+  margin-left: 29vw;
+  margin-right: 29vw;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 /*buttons temporarily removed */
