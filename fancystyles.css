@@ -14,7 +14,7 @@ body {
   background: #ddd;
   background-size: 300%;
   background-image: var(--gradient);
-  animation: bg-animation 25s infinite;
+  animation: bg-animation 20s infinite;
 }
 
 @keyframes bg-animation {
@@ -37,13 +37,13 @@ body {
 /* this is intended to be centered alright, im ditching that content 2 and putting just this, ill make better use of content 2 later. for the sake of sanity ill keep eveyrhting centered as its way better */
 .content1 {
     width: 80vw;
-    height: 500px;
+    height: auto;
     position: absolute;
     background-color: white;
     top: 0%;
     margin: 105px 13px 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    word-wrap: break-word
+    word-wrap: break-word;
 
 }
 /* content 2 doesnt exist for now */
@@ -95,18 +95,102 @@ body {
   color: transparent;
 }
 
+.probtitle {
+  text-align: center;
+  font-family: 'B612 Mono', monospace;
+  font-family: 'Cutive Mono', monospace;  
+  font-size: 30px; 
+  background-image: var(--gradient);
+  background-size: 300%;
+  transition: background-position 0.9s;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
 .topictitle:hover {
   background-position: right;
 }
 
+.probtitle:hover {
+  background-position: right;
+}
+
 .contenttext {
-  margin-left: 10px;
+  margin-left: 17px;
   margin-right: 10px;
+  margin-bottom: 13px;
 }
 
 .displayimage1 {
-  margin-left: 29vw;
+  margin-left: 27vw;
   margin-right: 29vw;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.displayimage2 {
+  margin-left: 21vw;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.displayimage3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.displayimage4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.displayimage5 {
+  margin-left: 25vw;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.displayimage6 {
+  margin-left: 25vw;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.displayimage7 {
+  margin-left: 32vw;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.displayimage8 {
+  margin-left: 20vw;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+.displayimage9 {
+  margin-left: 25vw;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.displayimage10 {
+  margin-left: 25vw;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.displayimage11 {
+  margin-left: 0vw;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.displayimage12 {
+  margin-left: 8vw;
   margin-top: 10px;
   margin-bottom: 10px;
 }
